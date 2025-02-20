@@ -21,3 +21,11 @@ Dice
  + GetTopSide(): int          
 
 */
+
+class Dice //implementing my class 
+{
+    private int topSide;     //topSide
+    private static Random random= new Random(); //creating the random 
+
+
+}
