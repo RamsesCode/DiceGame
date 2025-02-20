@@ -22,10 +22,16 @@ Dice
 
 */
 
-class Dice //implementing my class 
+class Dice                                              //implementing my class 
 {
-    private int topSide;     //topSide
-    private static Random random= new Random(); //creating the random 
+    private int topSide;                                //topSide keeping it in private 
+    private static Random random = new Random();        //creating the random 
 
+
+    public int Roll()                                   //creating my public
+    {
+        topSide = random.Next(1, 6);                    // keeping my sides to only 6
+        return topSide;
+    }
 
 }
